@@ -1,0 +1,1634 @@
+fileFormatVersion: 2
+guid: ebd81fdc57b323f4e9ef616431b9f8b6
+timeCreated: 1527301735
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Kano2_Abs_bind
+    100004: Kano2_Blendshape_grp
+    100006: Kano2_BreastA_L_bind
+    100008: Kano2_BreastA_R_bind
+    100010: Kano2_BreastB_L_end
+    100012: Kano2_BreastB_R_end
+    100014: Kano2_Brow_all_grp
+    100016: Kano2_brow_F_L_fcl
+    100018: Kano2_brow_F_R_fcl
+    100020: Kano2_brow_M_L_fcl
+    100022: Kano2_brow_M_R_fcl
+    100024: Kano2_brow_N_L_fcl
+    100026: Kano2_brow_N_R_fcl
+    100028: Kano2_CatEarsA_L_bind
+    100030: Kano2_CatEarsA_R_bind
+    100032: Kano2_CatEarsB_L_end
+    100034: Kano2_CatEarsB_R_end
+    100036: Kano2_CatPawsA_L_bind
+    100038: Kano2_CatPawsA_R_bind
+    100040: Kano2_CatPawsB_L_bind
+    100042: Kano2_CatPawsB_R_bind
+    100044: Kano2_CatPawsC_L_end
+    100046: Kano2_CatPawsC_R_end
+    100048: Kano2_ChainA_bind
+    100050: Kano2_ChainB_bind
+    100052: Kano2_ChainC_bind
+    100054: Kano2_ChainD_end
+    100056: Kano2_Chest_bind
+    100058: Kano2_Curl_L_bind
+    100060: Kano2_Curl_R_bind
+    100062: Kano2_ElbowA_L_bind
+    100064: Kano2_ElbowA_R_bind
+    100066: Kano2_ElbowB_L_end
+    100068: Kano2_ElbowB_R_end
+    100070: Kano2_eyeBall_blendshape_grp
+    100072: Kano2_eyes_blendshape_grp
+    100074: Kano2_Foot_L_bind
+    100076: Kano2_Foot_R_bind
+    100078: Kano2_ForeArm_L_bind
+    100080: Kano2_ForeArm_R_bind
+    100082: Kano2_ForeArmTwistA_L_bind
+    100084: Kano2_ForeArmTwistA_R_bind
+    100086: Kano2_ForeArmTwistB_L_bind
+    100088: Kano2_ForeArmTwistB_R_bind
+    100090: Kano2_FringeA_bind
+    100092: Kano2_FringeA_L_bind
+    100094: Kano2_FringeA_R_bind
+    100096: Kano2_FringeB_end
+    100098: Kano2_FringeB_L_end
+    100100: Kano2_FringeB_R_end
+    100102: Kano2_Hand_L_bind
+    100104: Kano2_Hand_R_bind
+    100106: Kano2_Head_bind
+    100108: Kano2_HeadTop_bind
+    100110: Kano2_Hip_bind
+    100112: Kano2_IndexA_L_bind
+    100114: Kano2_IndexA_R_bind
+    100116: Kano2_IndexB_L_bind
+    100118: Kano2_IndexB_R_bind
+    100120: Kano2_IndexC_L_bind
+    100122: Kano2_IndexC_R_bind
+    100124: Kano2_IndexD_L_end
+    100126: Kano2_IndexD_R_end
+    100128: Kano2_Kano
+    100130: Kano2_Knee_L_bind
+    100132: Kano2_Knee_R_bind
+    100134: Kano2_KneeCapA_L_bind
+    100136: Kano2_KneeCapA_R_bind
+    100138: Kano2_KneeCapB_L_end
+    100140: Kano2_KneeCapB_R_end
+    100142: Kano2_MasterController_grp
+    100144: Kano2_MiddleA_L_bind
+    100146: Kano2_MiddleA_R_bind
+    100148: Kano2_MiddleB_L_bind
+    100150: Kano2_MiddleB_R_bind
+    100152: Kano2_MiddleC_L_bind
+    100154: Kano2_MiddleC_R_bind
+    100156: Kano2_MiddleD_L_end
+    100158: Kano2_MiddleD_R_end
+    100160: Kano2_model
+    100162: Kano2_model_body
+    100164: Kano2_model_CatHat
+    100166: Kano2_model_chain
+    100168: Kano2_model_eyeball
+    100170: Kano2_model_eyeBase
+    100172: Kano2_model_eyeBrow
+    100174: Kano2_model_face1
+    100176: Kano2_model_faceBase
+    100178: Kano2_model_hair
+    100180: Kano2_model_outline
+    100182: Kano2_model_ribbon
+    100184: Kano2_mouth_blendshape_grp
+    100186: Kano2_Neck_bind
+    100188: Kano2_NeckBase_bind
+    100190: Kano2_PinkyA_L_bind
+    100192: Kano2_PinkyA_R_bind
+    100194: Kano2_PinkyB_L_bind
+    100196: Kano2_PinkyB_R_bind
+    100198: Kano2_PinkyC_L_bind
+    100200: Kano2_PinkyC_R_bind
+    100202: Kano2_PinkyD_L_end
+    100204: Kano2_PinkyD_R_end
+    100206: Kano2_PonyTailA_L_bind
+    100208: Kano2_PonyTailA_R_bind
+    100210: Kano2_PonyTailB_L_bind
+    100212: Kano2_PonyTailB_R_bind
+    100214: Kano2_PonyTailC_L_end
+    100216: Kano2_PonyTailC_R_end
+    100218: Kano2_RibbonBase_bind
+    100220: Kano2_RibbonBottomA_L_bind
+    100222: Kano2_RibbonBottomA_R_bind
+    100224: Kano2_RibbonBottomB_L_end
+    100226: Kano2_RibbonBottomB_R_end
+    100228: Kano2_RibbonTopA_L_bind
+    100230: Kano2_RibbonTopA_R_bind
+    100232: Kano2_RibbonTopB_L_end
+    100234: Kano2_RibbonTopB_R_end
+    100236: Kano2_RingA_L_bind
+    100238: Kano2_RingA_R_bind
+    100240: Kano2_RingB_L_bind
+    100242: Kano2_RingB_R_bind
+    100244: Kano2_RingC_L_bind
+    100246: Kano2_RingC_R_bind
+    100248: Kano2_RingD_L_end
+    100250: Kano2_RingD_R_end
+    100252: Kano2_Root_bind
+    100254: Kano2_Shoulder_L_bind
+    100256: Kano2_Shoulder_R_bind
+    100258: Kano2_sideBangA_L_bind
+    100260: Kano2_sideBangA_R_bind
+    100262: Kano2_sideBangB_R_end
+    100264: Kano2_sideBangB_R_end 1
+    100266: Kano2_SkinningJoints
+    100268: Kano2_SkirtA_Back_bind
+    100270: Kano2_SkirtA_Front_bind
+    100272: Kano2_SkirtA_L_bind
+    100274: Kano2_SkirtA_R_bind
+    100276: Kano2_SkirtB_Back_end
+    100278: Kano2_SkirtB_Front_end
+    100280: Kano2_SkirtB_L_end
+    100282: Kano2_SkirtB_R_end
+    100284: Kano2_TeethTop_tj
+    100286: Kano2_ThumbA_L_bind
+    100288: Kano2_ThumbA_R_bind
+    100290: Kano2_ThumbB_L_bind
+    100292: Kano2_ThumbB_R_bind
+    100294: Kano2_ThumbC_L_bind
+    100296: Kano2_ThumbC_R_bind
+    100298: Kano2_ThumbD_L_end
+    100300: Kano2_ThumbD_R_end
+    100302: Kano2_Toe_L_bind
+    100304: Kano2_Toe_R_bind
+    100306: Kano2_ToeEnd_L_bind
+    100308: Kano2_ToeEnd_R_bind
+    100310: Kano2_UpperArm_L_bind
+    100312: Kano2_UpperArm_R_bind
+    100314: Kano2_UpperArmTwist_L_bind
+    100316: Kano2_UpperArmTwist_R_bind
+    100318: Kano2_UpperLeg_L_bind
+    100320: Kano2_UpperLeg_R_bind
+    100322: Kano2_UpperLegTwist_L_bind
+    100324: Kano2_UpperLegTwist_R_bind
+    400000: //RootNode
+    400002: Kano2_Abs_bind
+    400004: Kano2_Blendshape_grp
+    400006: Kano2_BreastA_L_bind
+    400008: Kano2_BreastA_R_bind
+    400010: Kano2_BreastB_L_end
+    400012: Kano2_BreastB_R_end
+    400014: Kano2_Brow_all_grp
+    400016: Kano2_brow_F_L_fcl
+    400018: Kano2_brow_F_R_fcl
+    400020: Kano2_brow_M_L_fcl
+    400022: Kano2_brow_M_R_fcl
+    400024: Kano2_brow_N_L_fcl
+    400026: Kano2_brow_N_R_fcl
+    400028: Kano2_CatEarsA_L_bind
+    400030: Kano2_CatEarsA_R_bind
+    400032: Kano2_CatEarsB_L_end
+    400034: Kano2_CatEarsB_R_end
+    400036: Kano2_CatPawsA_L_bind
+    400038: Kano2_CatPawsA_R_bind
+    400040: Kano2_CatPawsB_L_bind
+    400042: Kano2_CatPawsB_R_bind
+    400044: Kano2_CatPawsC_L_end
+    400046: Kano2_CatPawsC_R_end
+    400048: Kano2_ChainA_bind
+    400050: Kano2_ChainB_bind
+    400052: Kano2_ChainC_bind
+    400054: Kano2_ChainD_end
+    400056: Kano2_Chest_bind
+    400058: Kano2_Curl_L_bind
+    400060: Kano2_Curl_R_bind
+    400062: Kano2_ElbowA_L_bind
+    400064: Kano2_ElbowA_R_bind
+    400066: Kano2_ElbowB_L_end
+    400068: Kano2_ElbowB_R_end
+    400070: Kano2_eyeBall_blendshape_grp
+    400072: Kano2_eyes_blendshape_grp
+    400074: Kano2_Foot_L_bind
+    400076: Kano2_Foot_R_bind
+    400078: Kano2_ForeArm_L_bind
+    400080: Kano2_ForeArm_R_bind
+    400082: Kano2_ForeArmTwistA_L_bind
+    400084: Kano2_ForeArmTwistA_R_bind
+    400086: Kano2_ForeArmTwistB_L_bind
+    400088: Kano2_ForeArmTwistB_R_bind
+    400090: Kano2_FringeA_bind
+    400092: Kano2_FringeA_L_bind
+    400094: Kano2_FringeA_R_bind
+    400096: Kano2_FringeB_end
+    400098: Kano2_FringeB_L_end
+    400100: Kano2_FringeB_R_end
+    400102: Kano2_Hand_L_bind
+    400104: Kano2_Hand_R_bind
+    400106: Kano2_Head_bind
+    400108: Kano2_HeadTop_bind
+    400110: Kano2_Hip_bind
+    400112: Kano2_IndexA_L_bind
+    400114: Kano2_IndexA_R_bind
+    400116: Kano2_IndexB_L_bind
+    400118: Kano2_IndexB_R_bind
+    400120: Kano2_IndexC_L_bind
+    400122: Kano2_IndexC_R_bind
+    400124: Kano2_IndexD_L_end
+    400126: Kano2_IndexD_R_end
+    400128: Kano2_Kano
+    400130: Kano2_Knee_L_bind
+    400132: Kano2_Knee_R_bind
+    400134: Kano2_KneeCapA_L_bind
+    400136: Kano2_KneeCapA_R_bind
+    400138: Kano2_KneeCapB_L_end
+    400140: Kano2_KneeCapB_R_end
+    400142: Kano2_MasterController_grp
+    400144: Kano2_MiddleA_L_bind
+    400146: Kano2_MiddleA_R_bind
+    400148: Kano2_MiddleB_L_bind
+    400150: Kano2_MiddleB_R_bind
+    400152: Kano2_MiddleC_L_bind
+    400154: Kano2_MiddleC_R_bind
+    400156: Kano2_MiddleD_L_end
+    400158: Kano2_MiddleD_R_end
+    400160: Kano2_model
+    400162: Kano2_model_body
+    400164: Kano2_model_CatHat
+    400166: Kano2_model_chain
+    400168: Kano2_model_eyeball
+    400170: Kano2_model_eyeBase
+    400172: Kano2_model_eyeBrow
+    400174: Kano2_model_face1
+    400176: Kano2_model_faceBase
+    400178: Kano2_model_hair
+    400180: Kano2_model_outline
+    400182: Kano2_model_ribbon
+    400184: Kano2_mouth_blendshape_grp
+    400186: Kano2_Neck_bind
+    400188: Kano2_NeckBase_bind
+    400190: Kano2_PinkyA_L_bind
+    400192: Kano2_PinkyA_R_bind
+    400194: Kano2_PinkyB_L_bind
+    400196: Kano2_PinkyB_R_bind
+    400198: Kano2_PinkyC_L_bind
+    400200: Kano2_PinkyC_R_bind
+    400202: Kano2_PinkyD_L_end
+    400204: Kano2_PinkyD_R_end
+    400206: Kano2_PonyTailA_L_bind
+    400208: Kano2_PonyTailA_R_bind
+    400210: Kano2_PonyTailB_L_bind
+    400212: Kano2_PonyTailB_R_bind
+    400214: Kano2_PonyTailC_L_end
+    400216: Kano2_PonyTailC_R_end
+    400218: Kano2_RibbonBase_bind
+    400220: Kano2_RibbonBottomA_L_bind
+    400222: Kano2_RibbonBottomA_R_bind
+    400224: Kano2_RibbonBottomB_L_end
+    400226: Kano2_RibbonBottomB_R_end
+    400228: Kano2_RibbonTopA_L_bind
+    400230: Kano2_RibbonTopA_R_bind
+    400232: Kano2_RibbonTopB_L_end
+    400234: Kano2_RibbonTopB_R_end
+    400236: Kano2_RingA_L_bind
+    400238: Kano2_RingA_R_bind
+    400240: Kano2_RingB_L_bind
+    400242: Kano2_RingB_R_bind
+    400244: Kano2_RingC_L_bind
+    400246: Kano2_RingC_R_bind
+    400248: Kano2_RingD_L_end
+    400250: Kano2_RingD_R_end
+    400252: Kano2_Root_bind
+    400254: Kano2_Shoulder_L_bind
+    400256: Kano2_Shoulder_R_bind
+    400258: Kano2_sideBangA_L_bind
+    400260: Kano2_sideBangA_R_bind
+    400262: Kano2_sideBangB_R_end
+    400264: Kano2_sideBangB_R_end 1
+    400266: Kano2_SkinningJoints
+    400268: Kano2_SkirtA_Back_bind
+    400270: Kano2_SkirtA_Front_bind
+    400272: Kano2_SkirtA_L_bind
+    400274: Kano2_SkirtA_R_bind
+    400276: Kano2_SkirtB_Back_end
+    400278: Kano2_SkirtB_Front_end
+    400280: Kano2_SkirtB_L_end
+    400282: Kano2_SkirtB_R_end
+    400284: Kano2_TeethTop_tj
+    400286: Kano2_ThumbA_L_bind
+    400288: Kano2_ThumbA_R_bind
+    400290: Kano2_ThumbB_L_bind
+    400292: Kano2_ThumbB_R_bind
+    400294: Kano2_ThumbC_L_bind
+    400296: Kano2_ThumbC_R_bind
+    400298: Kano2_ThumbD_L_end
+    400300: Kano2_ThumbD_R_end
+    400302: Kano2_Toe_L_bind
+    400304: Kano2_Toe_R_bind
+    400306: Kano2_ToeEnd_L_bind
+    400308: Kano2_ToeEnd_R_bind
+    400310: Kano2_UpperArm_L_bind
+    400312: Kano2_UpperArm_R_bind
+    400314: Kano2_UpperArmTwist_L_bind
+    400316: Kano2_UpperArmTwist_R_bind
+    400318: Kano2_UpperLeg_L_bind
+    400320: Kano2_UpperLeg_R_bind
+    400322: Kano2_UpperLegTwist_L_bind
+    400324: Kano2_UpperLegTwist_R_bind
+    2100000: Kano2_cloth_shd
+    2100002: Kano2_eye_shd
+    2100004: Kano2_outlineNose_shd
+    2100006: Kano2_face_shd
+    2100008: Kano2_hair_shd
+    2300000: Kano2_model_eyeBase
+    2300002: Kano2_model_faceBase
+    3300000: Kano2_model_eyeBase
+    3300002: Kano2_model_faceBase
+    4300000: Kano2_model_chain
+    4300002: Kano2_model_eyeball
+    4300004: Kano2_model_outline
+    4300006: Kano2_model_ribbon
+    4300008: Kano2_model_eyeBrow
+    4300010: Kano2_model_CatHat
+    4300012: Kano2_model_body
+    4300014: Kano2_model_face1
+    4300016: Kano2_model_eyeBase
+    4300018: Kano2_model_faceBase
+    4300020: Kano2_model_hair
+    9500000: //RootNode
+    13700000: Kano2_model_body
+    13700002: Kano2_model_CatHat
+    13700004: Kano2_model_chain
+    13700006: Kano2_model_eyeball
+    13700008: Kano2_model_eyeBrow
+    13700010: Kano2_model_face1
+    13700012: Kano2_model_hair
+    13700014: Kano2_model_outline
+    13700016: Kano2_model_ribbon
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.4
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Kano2_Root_bind
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_UpperLeg_L_bind
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_UpperLeg_R_bind
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_Knee_L_bind
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_Knee_R_bind
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_Foot_L_bind
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_Foot_R_bind
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_Abs_bind
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_NeckBase_bind
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_Head_bind
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_Shoulder_L_bind
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_Shoulder_R_bind
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_UpperArm_L_bind
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_UpperArm_R_bind
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_ForeArm_L_bind
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_ForeArm_R_bind
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_Hand_L_bind
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_Hand_R_bind
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_Toe_L_bind
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_Toe_R_bind
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_FringeA_L_bind
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_FringeA_R_bind
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_FringeA_bind
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_ThumbA_L_bind
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_ThumbB_L_bind
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_ThumbC_L_bind
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_MiddleA_L_bind
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_MiddleB_L_bind
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_MiddleC_L_bind
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_RingA_L_bind
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_RingB_L_bind
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_RingC_L_bind
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_PinkyA_L_bind
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_PinkyB_L_bind
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_PinkyC_L_bind
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_ThumbA_R_bind
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_ThumbB_R_bind
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_ThumbC_R_bind
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_MiddleA_R_bind
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_MiddleB_R_bind
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_MiddleC_R_bind
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_RingA_R_bind
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_RingB_R_bind
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_RingC_R_bind
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_PinkyA_R_bind
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_PinkyB_R_bind
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kano2_PinkyC_R_bind
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: kano(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Kano
+      parentName: kano(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_MasterController_grp
+      parentName: Kano2_Kano
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_SkinningJoints
+      parentName: Kano2_MasterController_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Root_bind
+      parentName: Kano2_SkinningJoints
+      position: {x: 2.445144e-18, y: 0.37020233, z: 0.024438368}
+      rotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Abs_bind
+      parentName: Kano2_Root_bind
+      position: {x: -0.019192293, y: 4.261545e-18, z: -2.4868997e-17}
+      rotation: {x: 0.7058739, y: -0.0417381, z: 0.0417381, w: 0.7058739}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Chest_bind
+      parentName: Kano2_Abs_bind
+      position: {x: -0.028777912, y: -1.4210855e-17, z: -3.9003088e-18}
+      rotation: {x: 0, y: 0, z: 0.11237726, w: 0.99366564}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_RibbonBase_bind
+      parentName: Kano2_Chest_bind
+      position: {x: 0.0007443143, y: 0.024184447, z: 3.619133e-18}
+      rotation: {x: -0.4072329, y: 0.57806695, z: 0.4072329, w: 0.57806695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_RibbonTopA_R_bind
+      parentName: Kano2_RibbonBase_bind
+      position: {x: 0.0031942842, y: 0.00002729109, z: 0.00048122724}
+      rotation: {x: 0.94803685, y: -0.30659664, z: 0.080874175, w: 0.026154837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_RibbonTopB_R_end
+      parentName: Kano2_RibbonTopA_R_bind
+      position: {x: 0.012447706, y: 0.0000005381989, z: 0.000000009640352}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_RibbonTopA_L_bind
+      parentName: Kano2_RibbonBase_bind
+      position: {x: -0.0031942842, y: 0.000027415603, z: 0.0004811657}
+      rotation: {x: -0.026154837, y: 0.080874175, z: 0.30659664, w: 0.94803685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_RibbonTopB_L_end
+      parentName: Kano2_RibbonTopA_L_bind
+      position: {x: -0.012447338, y: 3.6082247e-18, z: -4.4408923e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_RibbonBottomA_L_bind
+      parentName: Kano2_RibbonBase_bind
+      position: {x: -0.002672942, y: -0.0016781202, z: 0.0003426369}
+      rotation: {x: -0.08701682, y: 0.11664029, z: 0.5915947, w: 0.7929936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_RibbonBottomB_L_end
+      parentName: Kano2_RibbonBottomA_L_bind
+      position: {x: -0.021763718, y: 1.1546319e-17, z: -6.217249e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_RibbonBottomA_R_bind
+      parentName: Kano2_RibbonBase_bind
+      position: {x: 0.00267294, y: -0.0016767088, z: 0.00034282723}
+      rotation: {x: 0.7929936, y: -0.5915947, z: 0.11664029, w: 0.08701682}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_RibbonBottomB_R_end
+      parentName: Kano2_RibbonBottomA_R_bind
+      position: {x: 0.021765305, y: 0.00000048276166, z: 0.0000004833336}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_BreastA_L_bind
+      parentName: Kano2_Chest_bind
+      position: {x: -0.01698563, y: 0.020260882, z: 0.017639672}
+      rotation: {x: -0.5893339, y: 0.77826196, z: 0.13123035, w: 0.1725472}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_BreastB_L_end
+      parentName: Kano2_BreastA_L_bind
+      position: {x: -0.00788219, y: 0, z: -7.105428e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_BreastA_R_bind
+      parentName: Kano2_Chest_bind
+      position: {x: -0.016986633, y: 0.020261247, z: -0.01763968}
+      rotation: {x: 0.77826196, y: 0.5893339, z: -0.1725472, w: 0.13123035}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_BreastB_R_end
+      parentName: Kano2_BreastA_R_bind
+      position: {x: 0.007882008, y: 0.0000013611523, z: 0.00000006070304}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Shoulder_R_bind
+      parentName: Kano2_Chest_bind
+      position: {x: -0.057359636, y: -0.00561906, z: -0.0072372793}
+      rotation: {x: 0.57806695, y: 0.4072329, z: -0.57806695, w: 0.4072329}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_UpperArm_R_bind
+      parentName: Kano2_Shoulder_R_bind
+      position: {x: 0.03285712, y: 5.684342e-17, z: -4.8849816e-17}
+      rotation: {x: 0, y: 3.7375144e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ForeArm_R_bind
+      parentName: Kano2_UpperArm_R_bind
+      position: {x: 0.0710848, y: 5.684342e-17, z: -2.3536728e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ElbowA_R_bind
+      parentName: Kano2_ForeArm_R_bind
+      position: {x: -0.0075288, y: 1.1368684e-16, z: 0.007890305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ElbowB_R_end
+      parentName: Kano2_ElbowA_R_bind
+      position: {x: 0.0166044, y: 0, z: -3.552714e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ForeArmTwistA_R_bind
+      parentName: Kano2_ForeArm_R_bind
+      position: {x: 0.028, y: 1.1368684e-16, z: -9.325873e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ForeArmTwistB_R_bind
+      parentName: Kano2_ForeArm_R_bind
+      position: {x: 0.056, y: 1.1368684e-16, z: -1.8651747e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Hand_R_bind
+      parentName: Kano2_ForeArm_R_bind
+      position: {x: 0.0711952, y: 1.1368684e-16, z: -5.8619775e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Curl_R_bind
+      parentName: Kano2_Hand_R_bind
+      position: {x: 0.014207999, y: -0.004044, z: 0.005089024}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_RingA_R_bind
+      parentName: Kano2_Curl_R_bind
+      position: {x: 0.0188396, y: -0.00042, z: -0.00085779995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_RingB_R_bind
+      parentName: Kano2_RingA_R_bind
+      position: {x: 0.0156628, y: -1.1368684e-16, z: -1.5099034e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_RingC_R_bind
+      parentName: Kano2_RingB_R_bind
+      position: {x: 0.008265601, y: -5.684342e-17, z: -1.5099034e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_RingD_R_end
+      parentName: Kano2_RingC_R_bind
+      position: {x: 0.0065776, y: 0, z: -1.776357e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_PinkyA_R_bind
+      parentName: Kano2_Curl_R_bind
+      position: {x: 0.0181824, y: -0.000692, z: 0.00536704}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_PinkyB_R_bind
+      parentName: Kano2_PinkyA_R_bind
+      position: {x: 0.012244799, y: -1.1368684e-16, z: -1.9539925e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_PinkyC_R_bind
+      parentName: Kano2_PinkyB_R_bind
+      position: {x: 0.0059268, y: -5.684342e-17, z: -1.2434498e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_PinkyD_R_end
+      parentName: Kano2_PinkyC_R_bind
+      position: {x: 0.0055980003, y: 0, z: -1.776357e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_IndexA_R_bind
+      parentName: Kano2_Hand_R_bind
+      position: {x: 0.033254, y: -0.004564, z: -0.008663216}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_IndexB_R_bind
+      parentName: Kano2_IndexA_R_bind
+      position: {x: 0.0158804, y: 5.684342e-17, z: -5.3290704e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_IndexC_R_bind
+      parentName: Kano2_IndexB_R_bind
+      position: {x: 0.0082112, y: 1.1368684e-16, z: -5.4178884e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_IndexD_R_end
+      parentName: Kano2_IndexC_R_bind
+      position: {x: 0.0064707994, y: 0, z: -2.6645353e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_MiddleA_R_bind
+      parentName: Kano2_Hand_R_bind
+      position: {x: 0.033703204, y: -0.004328, z: -0.002125168}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_MiddleB_R_bind
+      parentName: Kano2_MiddleA_R_bind
+      position: {x: 0.0171516, y: 5.684342e-17, z: -5.595524e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_MiddleC_R_bind
+      parentName: Kano2_MiddleB_R_bind
+      position: {x: 0.008767201, y: 1.1368684e-16, z: -5.639933e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_MiddleD_R_end
+      parentName: Kano2_MiddleC_R_bind
+      position: {x: 0.0071732, y: 0, z: -2.4424906e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ThumbA_R_bind
+      parentName: Kano2_Hand_R_bind
+      position: {x: 0.0159964, y: 0.004456, z: -0.011036135}
+      rotation: {x: 0.3624694, y: 0.33810616, z: -0.13362828, w: 0.85816306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ThumbB_R_bind
+      parentName: Kano2_ThumbA_R_bind
+      position: {x: 0.01061708, y: -0.0000005139569, z: 0.0000005799207}
+      rotation: {x: 0.34556442, y: -0.021872677, z: -0.01124234, w: 0.93807274}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ThumbC_R_bind
+      parentName: Kano2_ThumbB_R_bind
+      position: {x: 0.009747865, y: 4.2632565e-17, z: -5.684342e-17}
+      rotation: {x: -0.016578132, y: 0.0035438377, z: 0.039407834, w: 0.9990794}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ThumbD_R_end
+      parentName: Kano2_ThumbC_R_bind
+      position: {x: 0.009131367, y: -0.00000006337881, z: 0.0000009733801}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_UpperArmTwist_R_bind
+      parentName: Kano2_UpperArm_R_bind
+      position: {x: 0.024, y: 1.7053026e-16, z: -7.549517e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Shoulder_L_bind
+      parentName: Kano2_Chest_bind
+      position: {x: -0.05735862, y: -0.0056194207, z: 0.007237263}
+      rotation: {x: -0.4072329, y: 0.57806695, z: 0.4072329, w: 0.57806695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_UpperArm_L_bind
+      parentName: Kano2_Shoulder_L_bind
+      position: {x: -0.03285722, y: 1.1368684e-16, z: 2.7089442e-17}
+      rotation: {x: 0, y: 8.9646195e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ForeArm_L_bind
+      parentName: Kano2_UpperArm_L_bind
+      position: {x: -0.07108476, y: -5.684342e-17, z: 1.1546319e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ElbowA_L_bind
+      parentName: Kano2_ForeArm_L_bind
+      position: {x: 0.007528932, y: 0, z: -0.007890286}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ElbowB_L_end
+      parentName: Kano2_ElbowA_L_bind
+      position: {x: -0.016604308, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ForeArmTwistA_L_bind
+      parentName: Kano2_ForeArm_L_bind
+      position: {x: -0.028, y: 0, z: 4.4408923e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ForeArmTwistB_L_bind
+      parentName: Kano2_ForeArm_L_bind
+      position: {x: -0.056, y: 0, z: -4.4408923e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Hand_L_bind
+      parentName: Kano2_ForeArm_L_bind
+      position: {x: -0.07119515, y: -5.684342e-17, z: 1.4654944e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Curl_L_bind
+      parentName: Kano2_Hand_L_bind
+      position: {x: -0.01420787, y: 0.0040460625, z: -0.0050890367}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_RingA_L_bind
+      parentName: Kano2_Curl_L_bind
+      position: {x: -0.018839708, y: 0.00041770606, z: 0.0008578215}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_RingB_L_bind
+      parentName: Kano2_RingA_L_bind
+      position: {x: -0.015662674, y: 5.684342e-17, z: 3.3058e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_RingC_L_bind
+      parentName: Kano2_RingB_L_bind
+      position: {x: -0.008265579, y: -5.684342e-17, z: -5.844214e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_RingD_L_end
+      parentName: Kano2_RingC_L_bind
+      position: {x: -0.006577667, y: 5.684342e-17, z: 5.038636e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_PinkyA_L_bind
+      parentName: Kano2_Curl_L_bind
+      position: {x: -0.018182557, y: 0.00069010316, z: -0.0053670206}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_PinkyB_L_bind
+      parentName: Kano2_PinkyA_L_bind
+      position: {x: -0.012244645, y: 0, z: -3.552714e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_PinkyC_L_bind
+      parentName: Kano2_PinkyB_L_bind
+      position: {x: -0.005927078, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_PinkyD_L_end
+      parentName: Kano2_PinkyC_L_bind
+      position: {x: -0.0055977176, y: 0, z: -1.776357e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_IndexA_L_bind
+      parentName: Kano2_Hand_L_bind
+      position: {x: -0.03325395, y: 0.0045637186, z: 0.008663225}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_IndexB_L_bind
+      parentName: Kano2_IndexA_L_bind
+      position: {x: -0.01588034, y: 0, z: 1.776357e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_IndexC_L_bind
+      parentName: Kano2_IndexB_L_bind
+      position: {x: -0.008211319, y: 0, z: -8.881785e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_IndexD_L_end
+      parentName: Kano2_IndexC_L_bind
+      position: {x: -0.006470963, y: 0, z: -8.881785e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_MiddleA_L_bind
+      parentName: Kano2_Hand_L_bind
+      position: {x: -0.033703055, y: 0.004327997, z: 0.002125168}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_MiddleB_L_bind
+      parentName: Kano2_MiddleA_L_bind
+      position: {x: -0.017151603, y: -1.6484591e-15, z: -5.8375085e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_MiddleC_L_bind
+      parentName: Kano2_MiddleB_L_bind
+      position: {x: -0.008767532, y: -1.7053026e-16, z: 1.4444001e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_MiddleD_L_end
+      parentName: Kano2_MiddleC_L_bind
+      position: {x: -0.0071729585, y: 8.5265126e-16, z: -1.29558585e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ThumbA_L_bind
+      parentName: Kano2_Hand_L_bind
+      position: {x: -0.015996285, y: -0.004455701, z: 0.011036131}
+      rotation: {x: 0.36245295, y: 0.33810085, z: -0.13365468, w: 0.85816795}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ThumbB_L_bind
+      parentName: Kano2_ThumbA_L_bind
+      position: {x: -0.010617319, y: -5.684342e-17, z: 2.842171e-16}
+      rotation: {x: 0.34556442, y: -0.021872677, z: -0.01124234, w: 0.93807274}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ThumbC_L_bind
+      parentName: Kano2_ThumbB_L_bind
+      position: {x: -0.009747493, y: -4.2632565e-17, z: 0}
+      rotation: {x: -0.016580397, y: 0.0035193737, z: 0.039402753, w: 0.99907964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ThumbD_L_end
+      parentName: Kano2_ThumbC_L_bind
+      position: {x: -0.009131711, y: 2.3980816e-17, z: 7.105428e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_UpperArmTwist_L_bind
+      parentName: Kano2_UpperArm_L_bind
+      position: {x: -0.024, y: -5.684342e-17, z: -8.881785e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_NeckBase_bind
+      parentName: Kano2_Chest_bind
+      position: {x: -0.077234775, y: -2.842171e-17, z: -2.134767e-17}
+      rotation: {x: 0.9685771, y: -0.2487136, z: -1.5229315e-17, w: 5.930824e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Neck_bind
+      parentName: Kano2_NeckBase_bind
+      position: {x: -0.010686416, y: -5.684342e-17, z: 7.1311034e-19}
+      rotation: {x: 0, y: 0, z: -0.04977633, w: 0.9987604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Head_bind
+      parentName: Kano2_Neck_bind
+      position: {x: -0.02208352, y: 7.105428e-18, z: 2.728419e-18}
+      rotation: {x: 0, y: 0, z: -0.08099376, w: 0.99671465}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Brow_all_grp
+      parentName: Kano2_Head_bind
+      position: {x: 0.52075046, y: 0.05156645, z: -1.1215406e-16}
+      rotation: {x: 0.52493536, y: -0.47375408, z: 0.52493536, w: 0.47375408}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_brow_N_L_fcl
+      parentName: Kano2_Brow_all_grp
+      position: {x: -0.012721466, y: 0.5588087, z: 0.039622955}
+      rotation: {x: 0, y: -0.087155744, z: -0, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_brow_M_L_fcl
+      parentName: Kano2_Brow_all_grp
+      position: {x: -0.021124685, y: 0.5605557, z: 0.036642537}
+      rotation: {x: 0, y: -0.2419219, z: -0, w: 0.9702957}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_brow_F_L_fcl
+      parentName: Kano2_Brow_all_grp
+      position: {x: -0.028985882, y: 0.55893993, z: 0.031216318}
+      rotation: {x: 0, y: -0.38268346, z: -0, w: 0.92387956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_brow_N_R_fcl
+      parentName: Kano2_Brow_all_grp
+      position: {x: 0.012721481, y: 0.558808, z: 0.03962296}
+      rotation: {x: 0.9961947, y: 4.4041677e-17, z: -0.087155744, w: 5.0339867e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_brow_M_R_fcl
+      parentName: Kano2_Brow_all_grp
+      position: {x: 0.02112468, y: 0.56055605, z: 0.036642518}
+      rotation: {x: 0.9702957, y: 1.4813443e-17, z: -0.2419219, w: 5.941348e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_brow_F_R_fcl
+      parentName: Kano2_Brow_all_grp
+      position: {x: 0.028985878, y: 0.55894, z: 0.031216322}
+      rotation: {x: 0.92387956, y: 2.3432604e-17, z: -0.38268346, w: 5.657131e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_TeethTop_tj
+      parentName: Kano2_Head_bind
+      position: {x: 0.009237236, y: -0.034381595, z: -1.204258e-17}
+      rotation: {x: 0.52493536, y: -0.47375408, z: 0.52493536, w: 0.47375408}
+      scale: {x: 0.80837995, y: 1, z: 1}
+    - name: Kano2_HeadTop_bind
+      parentName: Kano2_Head_bind
+      position: {x: -0.09583814, y: 2.842171e-17, z: -2.0432642e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_PonyTailA_L_bind
+      parentName: Kano2_HeadTop_bind
+      position: {x: 0.10386341, y: 0.019524964, z: -0.024272}
+      rotation: {x: 0.009985087, y: -0.017327914, z: 0.9127593, w: 0.408008}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_PonyTailB_L_bind
+      parentName: Kano2_PonyTailA_L_bind
+      position: {x: -0.034053206, y: 0, z: 3.552714e-18}
+      rotation: {x: -0.0144215375, y: 0.13088699, z: 0.10856667, w: 0.98532933}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_PonyTailC_L_end
+      parentName: Kano2_PonyTailB_L_bind
+      position: {x: -0.044491436, y: 3.1974422e-17, z: 1.4210855e-17}
+      rotation: {x: -0.32213482, y: -0.752748, z: -0.22587277, w: 0.52780783}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_PonyTailA_R_bind
+      parentName: Kano2_HeadTop_bind
+      position: {x: 0.103862, y: 0.019524807, z: 0.024272}
+      rotation: {x: -0.017327914, y: -0.009985087, z: -0.408008, w: 0.9127593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_PonyTailB_R_bind
+      parentName: Kano2_PonyTailA_R_bind
+      position: {x: 0.034054365, y: 0.0000015770516, z: 0.0000000116777255}
+      rotation: {x: -0.0144215375, y: 0.13088699, z: 0.10856667, w: 0.98532933}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_PonyTailC_R_end
+      parentName: Kano2_PonyTailB_R_bind
+      position: {x: 0.044490393, y: -0.00000094810224, z: -0.0000002993778}
+      rotation: {x: -0.32213482, y: -0.752748, z: -0.22587277, w: 0.52780783}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_sideBangA_R_bind
+      parentName: Kano2_HeadTop_bind
+      position: {x: 0.083943926, y: -0.017669206, z: 0.0425196}
+      rotation: {x: 0.19742894, y: 0.22479543, z: -0.15915377, w: 0.94082886}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_sideBangB_R_end 1
+      parentName: Kano2_sideBangA_R_bind
+      position: {x: 0.04182444, y: 0.00000025672315, z: 0.00000026730555}
+      rotation: {x: 0.446886, y: 0.8527353, z: 0.1255315, w: -0.23953564}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_sideBangA_L_bind
+      parentName: Kano2_HeadTop_bind
+      position: {x: 0.083944924, y: -0.017669108, z: -0.042519726}
+      rotation: {x: -0.22479543, y: 0.19742894, z: 0.94082886, w: 0.15915377}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_sideBangB_R_end
+      parentName: Kano2_sideBangA_L_bind
+      position: {x: -0.04182409, y: 1.776357e-18, z: 0}
+      rotation: {x: 0.446886, y: 0.8527353, z: 0.1255315, w: -0.23953564}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_FringeA_L_bind
+      parentName: Kano2_HeadTop_bind
+      position: {x: 0.048320297, y: -0.04531121, z: -0.029862156}
+      rotation: {x: 0.16755643, y: 0.26580375, z: 0.945743, w: -0.08272473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_FringeB_L_end
+      parentName: Kano2_FringeA_L_bind
+      position: {x: -0.027846424, y: -3.552714e-18, z: -1.776357e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_FringeA_bind
+      parentName: Kano2_HeadTop_bind
+      position: {x: 0.04421882, y: -0.055371404, z: -0.0058136224}
+      rotation: {x: -0.055983137, y: 0.7010568, z: 0.70979, w: 0.039793413}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_FringeB_end
+      parentName: Kano2_FringeA_bind
+      position: {x: -0.03654837, y: -8.881785e-19, z: 6.661338e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_FringeA_R_bind
+      parentName: Kano2_HeadTop_bind
+      position: {x: 0.048459932, y: -0.04803869, z: 0.024875753}
+      rotation: {x: -0.085885346, y: 0.8899364, z: 0.42853865, w: 0.13035168}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_FringeB_R_end
+      parentName: Kano2_FringeA_R_bind
+      position: {x: -0.028832374, y: -9.992007e-19, z: -9.5479175e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_CatEarsA_L_bind
+      parentName: Kano2_HeadTop_bind
+      position: {x: 0.0020730498, y: -0.016465405, z: -0.03017627}
+      rotation: {x: 0.7060981, y: -0.037756126, z: 0.10974159, w: 0.698539}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_CatEarsB_L_end
+      parentName: Kano2_CatEarsA_L_bind
+      position: {x: -0.023002937, y: 2.4633073e-18, z: 6.1062266e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_CatEarsA_R_bind
+      parentName: Kano2_HeadTop_bind
+      position: {x: 0.0020719473, y: -0.016465502, z: 0.03017628}
+      rotation: {x: 0.037756126, y: 0.7060981, z: 0.698539, w: -0.10974159}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_CatEarsB_R_end
+      parentName: Kano2_CatEarsA_R_bind
+      position: {x: 0.02300178, y: 0.00000024224798, z: -1.776357e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_CatPawsA_R_bind
+      parentName: Kano2_HeadTop_bind
+      position: {x: 0.07883774, y: -0.00049743673, z: 0.047266398}
+      rotation: {x: 0.976906, y: 0.18492395, z: -0.059073064, w: -0.0892652}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_CatPawsB_R_bind
+      parentName: Kano2_CatPawsA_R_bind
+      position: {x: 0.023591656, y: -0.0000000531912, z: -0.000000015670539}
+      rotation: {x: 0.13048477, y: 0.41118976, z: 0.050149664, w: 0.90076727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_CatPawsC_R_end
+      parentName: Kano2_CatPawsB_R_bind
+      position: {x: 0.042705845, y: -0.000000579454, z: -0.0000016590759}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_CatPawsA_L_bind
+      parentName: Kano2_HeadTop_bind
+      position: {x: 0.07883645, y: -0.0004975701, z: -0.04726633}
+      rotation: {x: -0.18492395, y: 0.976906, z: -0.0892652, w: 0.059073064}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_CatPawsB_L_bind
+      parentName: Kano2_CatPawsA_L_bind
+      position: {x: -0.023591843, y: -5.684342e-17, z: -1.0658141e-17}
+      rotation: {x: 0.13048477, y: 0.41118976, z: 0.050149664, w: 0.90076727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_CatPawsC_L_end
+      parentName: Kano2_CatPawsB_L_bind
+      position: {x: -0.042708337, y: -5.8175685e-17, z: 3.1086245e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Hip_bind
+      parentName: Kano2_Root_bind
+      position: {x: 0.065203965, y: 7.569396e-19, z: -7.105428e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_UpperLeg_R_bind
+      parentName: Kano2_Hip_bind
+      position: {x: -0.0124948425, y: 0.02878268, z: -0.001579807}
+      rotation: {x: -0.7046184, y: 0.059270583, z: 0.038131922, w: 0.7060778}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Knee_R_bind
+      parentName: Kano2_UpperLeg_R_bind
+      position: {x: 0.13463104, y: -0.000000019533019, z: -0.0000000099771125}
+      rotation: {x: 1, y: 0.00000029324542, z: 0.000000014395948, w: 0.000000099837756}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Foot_R_bind
+      parentName: Kano2_Knee_R_bind
+      position: {x: 0.15002409, y: -0.000000015017417, z: 0.000000014303005}
+      rotation: {x: 0.8399264, y: 0.5424934, z: -0.013583698, w: -0.006322166}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Toe_R_bind
+      parentName: Kano2_Foot_R_bind
+      position: {x: 0.051966745, y: 0.0000000021005921, z: -1.3855584e-16}
+      rotation: {x: 0, y: 0, z: -0.2685757, w: 0.9632586}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ToeEnd_R_bind
+      parentName: Kano2_Toe_R_bind
+      position: {x: 0.02618447, y: -0.000000007089973, z: -1.0658141e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_KneeCapA_R_bind
+      parentName: Kano2_Knee_R_bind
+      position: {x: -0.018367918, y: 0.014318866, z: 4.5427026e-10}
+      rotation: {x: 0, y: 0, z: 0.00000062979376, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_KneeCapB_R_end
+      parentName: Kano2_KneeCapA_R_bind
+      position: {x: 0.021726636, y: -0.000000007178958, z: -0.0000000046829522}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_UpperLegTwist_R_bind
+      parentName: Kano2_UpperLeg_R_bind
+      position: {x: 0.04000016, y: -0.00000004262093, z: 0.000000007903423}
+      rotation: {x: 0.00000005055256, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_UpperLeg_L_bind
+      parentName: Kano2_Hip_bind
+      position: {x: -0.0123237, y: -0.028782671, z: -0.0015798046}
+      rotation: {x: 0.03813186, y: 0.7060779, z: 0.70461833, w: -0.059270523}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Knee_L_bind
+      parentName: Kano2_UpperLeg_L_bind
+      position: {x: -0.13463098, y: 2.4868997e-17, z: -4.9737993e-17}
+      rotation: {x: 1, y: 0.0000004594936, z: 2.813587e-23, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Foot_L_bind
+      parentName: Kano2_Knee_L_bind
+      position: {x: -0.15002415, y: 1.4210855e-17, z: 4.9737993e-17}
+      rotation: {x: 0.8399264, y: 0.5424934, z: -0.0135837225, w: -0.0063221212}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Toe_L_bind
+      parentName: Kano2_Foot_L_bind
+      position: {x: -0.051966727, y: 8.526513e-17, z: -1.4210855e-17}
+      rotation: {x: 0, y: 0, z: -0.2685757, w: 0.9632586}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ToeEnd_L_bind
+      parentName: Kano2_Toe_L_bind
+      position: {x: -0.026184315, y: 6.3282712e-18, z: 8.551104e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_KneeCapA_L_bind
+      parentName: Kano2_Knee_L_bind
+      position: {x: 0.018367898, y: -0.014318912, z: -1.0658141e-17}
+      rotation: {x: 0, y: 0, z: 0.00000020421925, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_KneeCapB_L_end
+      parentName: Kano2_KneeCapA_L_bind
+      position: {x: -0.02172677, y: -4.440892e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_UpperLegTwist_L_bind
+      parentName: Kano2_UpperLeg_L_bind
+      position: {x: -0.04, y: -3.552714e-18, z: 1.4210855e-17}
+      rotation: {x: 0.000000014126505, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_SkirtA_R_bind
+      parentName: Kano2_Hip_bind
+      position: {x: -0.04048964, y: 0.049016397, z: -0.002926247}
+      rotation: {x: -0.6782044, y: -0.20009695, z: 0.20009695, w: 0.6782044}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_SkirtB_R_end
+      parentName: Kano2_SkirtA_R_bind
+      position: {x: 0.054023266, y: -1.4210855e-17, z: -0.00000007374247}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_SkirtA_L_bind
+      parentName: Kano2_Hip_bind
+      position: {x: -0.040489458, y: -0.04901656, z: -0.0029262302}
+      rotation: {x: 0.20009695, y: 0.6782044, z: 0.6782044, w: 0.20009695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_SkirtB_L_end
+      parentName: Kano2_SkirtA_L_bind
+      position: {x: -0.05402307, y: 1.7763568e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_SkirtA_Front_bind
+      parentName: Kano2_Hip_bind
+      position: {x: -0.031353593, y: -1.0718375e-17, z: 0.03094455}
+      rotation: {x: 5.0325136e-17, y: 0.98637635, z: 5.0325136e-17, w: 0.1645045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_SkirtB_Front_end
+      parentName: Kano2_SkirtA_Front_bind
+      position: {x: -0.051436912, y: -5.3290706e-18, z: -5.916457e-34}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_SkirtA_Back_bind
+      parentName: Kano2_Hip_bind
+      position: {x: -0.04226997, y: -8.2944535e-18, z: -0.034144875}
+      rotation: {x: 0.21643962, y: -5.663211e-17, z: 0.976296, w: 2.7552457e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_SkirtB_Back_end
+      parentName: Kano2_SkirtA_Back_bind
+      position: {x: -0.051436912, y: -3.552714e-18, z: -1.1421289e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ChainA_bind
+      parentName: Kano2_Hip_bind
+      position: {x: -0.04649813, y: -0.037413787, z: 0.016710578}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ChainB_bind
+      parentName: Kano2_ChainA_bind
+      position: {x: -0.03776273, y: 8.5265126e-16, z: -4.9737993e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ChainC_bind
+      parentName: Kano2_ChainB_bind
+      position: {x: -0.037667464, y: -5.684342e-16, z: -7.105428e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_ChainD_end
+      parentName: Kano2_ChainC_bind
+      position: {x: -0.04975527, y: -5.684342e-17, z: -7.105428e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_model
+      parentName: kano(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_Blendshape_grp
+      parentName: Kano2_model
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_eyeBall_blendshape_grp
+      parentName: Kano2_Blendshape_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_eyes_blendshape_grp
+      parentName: Kano2_Blendshape_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_model_eyeBase
+      parentName: Kano2_Blendshape_grp
+      position: {x: -0, y: 0.27306756, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_model_faceBase
+      parentName: Kano2_Blendshape_grp
+      position: {x: -0, y: 0.273068, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_mouth_blendshape_grp
+      parentName: Kano2_Blendshape_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_model_body
+      parentName: Kano2_model
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_model_CatHat
+      parentName: Kano2_model
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_model_chain
+      parentName: Kano2_model
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_model_eyeball
+      parentName: Kano2_model
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_model_eyeBrow
+      parentName: Kano2_model
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_model_face1
+      parentName: Kano2_model
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_model_hair
+      parentName: Kano2_model
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kano2_model_outline
+      parentName: Kano2_model
+      position: {x: -2.886051e-11, y: -0.29304984, z: -0.0985992}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5367163, y: 0.5367163, z: 0.5367163}
+    - name: Kano2_model_ribbon
+      parentName: Kano2_model
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
