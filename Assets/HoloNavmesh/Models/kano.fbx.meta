@@ -361,7 +361,32 @@ ModelImporter:
     13700012: Kano2_model_hair
     13700014: Kano2_model_outline
     13700016: Kano2_model_ribbon
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kano2_cloth_shd
+    second: {fileID: 2100000, guid: 3a4b2461b8de65345a09d602d7e9609f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kano2_eye_shd
+    second: {fileID: 2100000, guid: 0ef7bed784164844b9994037ff70e3b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kano2_face_shd
+    second: {fileID: 2100000, guid: 71d501cd2425fad468a76e2118564bde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kano2_hair_shd
+    second: {fileID: 2100000, guid: 8746867c23a73bb489834a8cfe7dd0fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kano2_outlineNose_shd
+    second: {fileID: 2100000, guid: d1be7ffd09db91647aaedab4c049c7d3, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
