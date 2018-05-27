@@ -1,6 +1,9 @@
 # HololensNavmeshSample
 HololensでSpatialMappingベースの動的なナビメッシュでキャラクターが移動するサンプルプロジェクトです。
 
+![result](https://github.com/neon-izm/HololensNavmeshSample/blob/master/img/preview.gif?raw=true)
+
+
 # 実行環境
 Assets/Scenes/NavmeshScene.unity をビルドしてください。
 
