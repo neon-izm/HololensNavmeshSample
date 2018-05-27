@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/HoloToolkit-Examples/SpatialMapping/Scenes/SpatialMappingTap.unity
     guid: 5a1206fa158f25846983ae6e2a3454b5
-  - enabled: 0
+  - enabled: 1
     path: Assets/HoloNavmesh/Scenes/NavmeshScene.unity
     guid: a047c763454e8c545925bfdbe96170e4
-  - enabled: 1
+  - enabled: 0
     path: Assets/HoloNavmesh/Scenes/TestScene/LocalNavmeshBuild.unity
     guid: 243e23423f4626a478ab111255d29460

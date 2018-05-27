@@ -7,52 +7,69 @@ using UnityEngine.UI;
 
 public class MoveToClickPoint : MonoBehaviour, IInputClickHandler
 {
-    NavMeshAgent _agent;
+    NavMeshAgent agent;
 
     // パス、座標リスト、ルート表示用Renderer
-    NavMeshPath _path = null;
-    Vector3[] _positions = new Vector3[9];
-    public LineRenderer Lr;
+    NavMeshPath path = null;
+    Vector3[] positions = new Vector3[9];
+    public LineRenderer lr;
 
+    public GameObject cl; //追加
+    private IInputClickHandler _inputClickHandlerImplementation;
 
     void Start()
     {
-        _agent = GetComponent<NavMeshAgent>();
+        agent = cl.GetComponent<NavMeshAgent>(); //変更
         InputManager.Instance.PushFallbackInputHandler(gameObject);
-        Lr.enabled = false;
+        cl.SetActive(false); //追加
+        lr.enabled = false;
     }
 
 
     public void OnInputClicked(InputClickedEventData eventData)
     {
-        Debug.Log("OnClick");
-        Lr.enabled = true;
+        //追加
+        Vector3 hitPos, hitNormal;
+        RaycastHit hitInfo;
+        Vector3 uiRayCastOrigin = Camera.main.transform.position;
+        Vector3 uiRayCastDirection = Camera.main.transform.forward;
+        if (Physics.Raycast(uiRayCastOrigin, uiRayCastDirection, out hitInfo))
+        {
+            if (!cl.activeSelf)
+            {
+                cl.SetActive(true);
+                hitPos = hitInfo.point;
+                hitNormal = hitInfo.normal;
+                agent.transform.position = hitPos;
+            }
+        }
+
+
+        lr.enabled = true;
 
         var headPosition = Camera.main.transform.position;
         var gazeDirection = Camera.main.transform.forward;
 
-        RaycastHit hitInfo;
-
         //目的地の設定
         if (Physics.Raycast(headPosition, gazeDirection, out hitInfo))
         {
-            _agent.destination = hitInfo.point;
+            agent.destination = hitInfo.point;
         }
 
         // パスの計算
-        _path = new NavMeshPath();
-        NavMesh.CalculatePath(_agent.transform.position, _agent.destination, NavMesh.AllAreas, _path);
-        _positions = _path.corners;
+        path = new NavMeshPath();
+        NavMesh.CalculatePath(agent.transform.position, agent.destination, NavMesh.AllAreas, path);
+        positions = path.corners;
 
         // ルートの描画
-        Lr.widthMultiplier = 0.2f;
-        Lr.positionCount = _positions.Length;
+        lr.widthMultiplier = 0.2f;
+        lr.positionCount = positions.Length;
 
-        for (int i = 0; i < _positions.Length; i++)
+        for (int i = 0; i < positions.Length; i++)
         {
-            Debug.Log("point " + i + "=" + _positions[i]);
+            Debug.Log("point " + i + "=" + positions[i]);
 
-            Lr.SetPosition(i, _positions[i]);
+            lr.SetPosition(i, positions[i]);
         }
     }
 }
