@@ -5,71 +5,102 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
 
-public class MoveToClickPoint : MonoBehaviour, IInputClickHandler
+namespace HololensNavmeshSample
 {
-    NavMeshAgent agent;
-
-    // パス、座標リスト、ルート表示用Renderer
-    NavMeshPath path = null;
-    Vector3[] positions = new Vector3[9];
-    public LineRenderer lr;
-
-    public GameObject cl; //追加
-    private IInputClickHandler _inputClickHandlerImplementation;
-
-    void Start()
+    /// <summary>
+    /// AirTapクリックに合わせてキャラクターを移動させるスクリプト。
+    /// </summary>
+    public class MoveToClickPoint : MonoBehaviour, IInputClickHandler
     {
-        agent = cl.GetComponent<NavMeshAgent>(); //変更
-        InputManager.Instance.PushFallbackInputHandler(gameObject);
-        cl.SetActive(false); //追加
-        lr.enabled = false;
-    }
+        /// <summary>
+        /// 実際にNavmeshで動くキャラクターのルート(NavmeshAgentがアタッチされていることを想定している
+        /// </summary>
+        public GameObject TargetCharacter;
 
+        /// <summary>
+        /// LineRenderer（移動経路の可視化に使うLineRenderer
+        /// </summary>
+        public LineRenderer NavmeshPathLineRenderer;
 
-    public void OnInputClicked(InputClickedEventData eventData)
-    {
-        //追加
-        Vector3 hitPos, hitNormal;
-        RaycastHit hitInfo;
-        Vector3 uiRayCastOrigin = Camera.main.transform.position;
-        Vector3 uiRayCastDirection = Camera.main.transform.forward;
-        if (Physics.Raycast(uiRayCastOrigin, uiRayCastDirection, out hitInfo))
+        NavMeshAgent _targetCharactorNavmeshAgent;
+
+        // パス、座標リスト、ルート表示用Renderer
+        NavMeshPath _path = null;
+        Vector3[] _navMeshCornerPositions = new Vector3[9];
+
+        private IInputClickHandler _inputClickHandlerImplementation;
+
+        void Start()
         {
-            if (!cl.activeSelf)
+            _targetCharactorNavmeshAgent = TargetCharacter.GetComponent<NavMeshAgent>(); //変更
+            if (_targetCharactorNavmeshAgent == null)
             {
-                cl.SetActive(true);
-                hitPos = hitInfo.point;
-                hitNormal = hitInfo.normal;
-                agent.transform.position = hitPos;
+                Debug.LogError("Target Charactor Object Does't Attached NavmeshAgent");
+                Debug.LogError("Destroy MoveToClickPoint script");
+                Destroy(this);
+            }
+
+            //AirTapを受け取れるように設定
+            InputManager.Instance.PushFallbackInputHandler(gameObject);
+            TargetCharacter.SetActive(false); //キャラクターを一旦無効化（NavMesh生成前に出現すると、一瞬で落下してしまう為）
+            if (NavmeshPathLineRenderer)
+            {
+                //LineRendererも非表示にする
+                NavmeshPathLineRenderer.enabled = false;
             }
         }
 
 
-        lr.enabled = true;
-
-        var headPosition = Camera.main.transform.position;
-        var gazeDirection = Camera.main.transform.forward;
-
-        //目的地の設定
-        if (Physics.Raycast(headPosition, gazeDirection, out hitInfo))
+        /// <summary>
+        /// AirTap時の挙動
+        /// </summary>
+        /// <param name="eventData"></param>
+        public void OnInputClicked(InputClickedEventData eventData)
         {
-            agent.destination = hitInfo.point;
-        }
+            RaycastHit hitInfo;
+            var uiRayCastOrigin = Camera.main.transform.position;
+            var uiRayCastDirection = Camera.main.transform.forward;
+            if (Physics.Raycast(uiRayCastOrigin, uiRayCastDirection, out hitInfo))
+            {
+                //初めてのAirTapを検知したら、キャラクターを表示させて、AirTap位置にキャラクターを移動する
+                if (!TargetCharacter.activeSelf)
+                {
+                    TargetCharacter.SetActive(true);
+                    var hitPos = hitInfo.point;
+                    _targetCharactorNavmeshAgent.transform.position = hitPos;
+                }
+            }
 
-        // パスの計算
-        path = new NavMeshPath();
-        NavMesh.CalculatePath(agent.transform.position, agent.destination, NavMesh.AllAreas, path);
-        positions = path.corners;
 
-        // ルートの描画
-        lr.widthMultiplier = 0.2f;
-        lr.positionCount = positions.Length;
+            var headPosition = Camera.main.transform.position;
+            var gazeDirection = Camera.main.transform.forward;
 
-        for (int i = 0; i < positions.Length; i++)
-        {
-            Debug.Log("point " + i + "=" + positions[i]);
+            //目的地の設定
+            if (Physics.Raycast(headPosition, gazeDirection, out hitInfo))
+            {
+                _targetCharactorNavmeshAgent.destination = hitInfo.point;
+            }
 
-            lr.SetPosition(i, positions[i]);
+            //ナビメッシュパスの計算
+            _path = new NavMeshPath();
+            NavMesh.CalculatePath(_targetCharactorNavmeshAgent.transform.position,
+                _targetCharactorNavmeshAgent.destination, NavMesh.AllAreas, _path);
+            _navMeshCornerPositions = _path.corners;
+
+            if (!NavmeshPathLineRenderer) return;
+
+            NavmeshPathLineRenderer.enabled = true;
+
+            // ルートの描画
+            NavmeshPathLineRenderer.widthMultiplier = 0.1f;
+            NavmeshPathLineRenderer.positionCount = _navMeshCornerPositions.Length;
+
+            for (int i = 0; i < _navMeshCornerPositions.Length; i++)
+            {
+                Debug.Log("point " + i + "=" + _navMeshCornerPositions[i]);
+
+                NavmeshPathLineRenderer.SetPosition(i, _navMeshCornerPositions[i]);
+            }
         }
     }
 }
